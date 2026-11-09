@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+# The gallery recordings illustrate the demos index; it is not a watch page.
+Disallow: /examples/gallery/*.mp4$
+Disallow: /examples/gallery/*.webm$
 
 Sitemap: https://demos.hibira.io/sitemap.xml
